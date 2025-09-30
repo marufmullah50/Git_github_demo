@@ -1,0 +1,21 @@
+#Here just practicing git and github
+# Initialize local repo
+git init
+# create file 
+touch index.html
+
+#edit file in vscode
+
+vscode index.html
+
+# Add all files
+git add .
+
+# Commit them
+git commit -m "Initial commit"
+
+# Connect to GitHub (replace with your repo HTTPS link)
+git remote add origin https://github.com/your-username/project.git
+
+# Push files (use main if your branch is main)
+git push -u origin master
